@@ -279,6 +279,10 @@ body {
     #experience .container {
       width: 860px
     }
+
+    #education .container {
+      width: 860px
+    }
   }
   @media (max-width: 1360px) {
     .card ul li {
