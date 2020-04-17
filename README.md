@@ -19,7 +19,7 @@ Jekyll on your system, run
 After Jekyll is installed, you can `cd` into the main folder of this
 repository and run
 
-    jekyll serve
+    bundle exec jekyll serve
 
 This will start a server at <http://localhost:4000/> serving the compiled
 website. If the source files change, the server will automatically recompile
