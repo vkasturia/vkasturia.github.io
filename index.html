@@ -134,7 +134,7 @@
           <blockquote>
             <h2>Research Associate</h2>
           </blockquote>
-          <p>I am working as a Research Associate at the <a href="https://www.continental.com/" target="_blank">University of Halle-Wittenberg</a>. I am a part of the &quot;Big Data Analytics&quot; research group of the <a href="https://webis.de/" target="_blank">Webis Network</a>. 
+          <p>I am working as a Research Associate at the <a href="https://www.uni-halle.de/" target="_blank">University of Halle-Wittenberg</a>. I am a part of the &quot;Big Data Analytics&quot; research group of the <a href="https://webis.de/" target="_blank">Webis Network</a>. 
 
           <p>My research interests lie in the areas of <a href="https://en.wikipedia.org/wiki/Query_understanding" target="_blank">Query Understanding</a> via  <a href="https://en.wikipedia.org/wiki/Entity_linking" target="_blank">Entity Linking</a> and <a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank">Total Recall</a> in <a href="https://en.wikipedia.org/wiki/Systematic_review" target="_blank">Systematic Reviews</a>. At the university, I undertake exercises for maths and programming courses.</p>
           
@@ -161,18 +161,44 @@
               <p><em class="grey-text">Activities</em></p>
               <h6>Project Experience</h6>
               <ul>
-                <li>Query Understanding via Entity Linking</li>
-                <li>Total Recall in Systematic Reviews</li>
-                <li>Argumentative Axiomatic Re-Ranking for Medical Search Queries</li>
+                <li>Query Understanding via Entity Linking
+                  <ul>
+                    <li>Goal: Understanding the meaning behind search engine queries using entity linking to show more relevant results to the user.</li>
+                    <li>Answer times of web search engines typically are below several hundreds of milliseconds; entity linking should thus ideally not consume more than some tens of milliseconds.</li>
+                    <li>Developed an entity linking tool achieving higher accuracy at a faster speed compared to several existing entity linking tools.</li> 
+                  </ul>  
+                </li>  
+                <li>Total Recall in Systematic Reviews
+                  <ul>
+                    <li>Total Recall: Finding all the relevant publications on a given topic.</li>
+                    <li>&quot;Recall&quot; of the system: The portion of relevant documents that a search system returns from the set of all relevant documents.</li>
+                    <li>Goal: Find all relevant documents, given a collection of several 1000s of documents somewhat related to a specified topic.</li>
+                    <li>Implemented several ML methods available in <a aria-label="" href="https://github.com/hical/HiCAL" target="_blank" text-decoration="none">HiCAL</a> on botanical research datasets.</li> 
+                  </ul>
+                </li>   
+                <li>Argumentative Axiomatic Re-Ranking for Medical Search Queries
+                  <ul>
+                    <li>People use search technologies to seek health advice online</li> 
+                    <li>Time-pressured clinicians rely on search results to decide upon the best treatment/diagnosis/test for a patient.</li>
+                    <li>Problem: Using search engines in order to complete such decision making tasks, users are able to discern authoritative from unreliable information and correct from incorrect information.</li>
+                    <li>Our Solution: Re-rank search results obtained by traditional search models, in order to promote more argumentative results for keyword-based queries that might benefit from argumentative answers.</li>
+                    <li>Participated with the axiomatic re-ranking approach at the TREC 2019 Conference.</li>
+                  </ul>
+                </li>
               </ul>
               <h6>Teaching Experience</h6>
               <ul>
-                <li>Summer Semester 2020: Foundations of Computer Science and Concepts of Modeling-II (Exercises)</li>
-                <li>Winter Semester 2019/20: Search Algorithms (Exercises)</li>
-                <li>Winter Semester 2019/20: Foundations of Computer Science and Concepts of Modeling-I (Exercises)</li>
-                <li>Summer Semester 2019: C Programming (Exercises)</li>
-                <li>Summer Semester 2019: Project Internship (Supervision)</li>
-                <li>Winter Semester 2018/19: Object Oriented Programming (Exercises)</li>
+                <li>SS 2020: Foundations of Computer Science and Concepts of Modeling-II (Exercises)</li>
+                <li>WS 2019/20: Search Algorithms (Exercises)</li>
+                <li>WS 2019/20: Foundations of Computer Science and Concepts of Modeling-I (Exercises)</li>
+                <li>SS 2019: C Programming (Exercises)</li>
+                <li>SS 2019: Project Internship (Supervision)</li>
+                <li>WS 2018/19: Object Oriented Programming (Exercises)</li>
+              </ul>
+              <h6>Reviewing Experience</h6>
+              <ul>
+                <li>Sub-Reviewer: ECIR 2020 Conference, Lisbon
+                <li>Sub-Reviewer: CHIIR 2020 Conference, Vancouver</li>
               </ul>
             </div>
             <div class="card-action"><span>Aug 2018 - Present  |  Halle (Saale), Germany</span></div>
@@ -210,9 +236,8 @@
               <p><em class="grey-text">Activities</em></p>
               <h6>Alexandria Project (ERC Advanced Grant Project)</h6>
               <ul>
-                <li>Role: Requirements analysis, Implementation</li>
-                <li>Tools: Flask, Elastic Search, Kibana, Twitter API</li>
-                <li>Languages: Python, HTML+CSS(Bootstrap), SQL</li>
+                <li>Building and Querying Semantic Layers for Web Archives</li>
+                <li></li>
               </ul>
             </div>
             <div class="card-action"><span>Oct 2016 - Jan 2018 |  Hannover, Germany</span></div>
@@ -276,93 +301,6 @@
             <div class="card-action"><span>May 2011 - Jul 2011  |  Delhi, India</span></div>
           </div>
 
-          <div class="card z-depth-3">
-            <div class="card-content">
-              <div class="row">
-                <div class="col s12 m2 l2"><a href="https://www2.deloitte.com/de/de.html" target="_blank"><img alt="Deloitte logo" src="static/img/Deloitte_Logo.png" class="responsive-img center-block" style="margin-top:12px"></a></div>
-                <div class="col s12 m10 l10">
-                  <p><span class="card-title"><a href="https://www2.deloitte.com/de/de.html" target="_blank" class="teal-text hoverline">Deloitte Consulting</a></span></p>
-                </div>
-              </div>
-              <div class="role brown-text">Senior Data Science Consultant</div>
-              <p><em class="grey-text">Project Experience</em></p>
-              <h6>European Finance Authority</h6>
-              <ul>
-                <li>Predictive Analytics
-                  <ul>
-                    <li>ML models for Probability of Default prediction for loans</li>
-                    <li>Prototyping in Python, Implementierung in Hive/Impala, Scala & Spark</li>
-                  </ul>
-                </li>
-                <li>Anomaly Detection
-                  <ul>
-                    <li>Detection of abnormal data records in AnaCredit dataset</li>
-                    <li>Web App with Python, Flask, Bootstrap & Docker</li>
-                  </ul>
-                </li>
-                <li>Development of a user guide for Cloudera Data Science Workbench (CDSW) with relevant example models
-                  <ul>
-                    <li>Design and implementation of example scenarios</li>
-                    <li>Implementation in Python and PySpark</li>
-                  </ul>
-                </li>
-              </ul>
-              <h6>Large Automotive Company</h6>
-              <ul>
-                <li>Search Engine Development (NLP)
-                  <ul>
-                    <li>Search engine for RfQ Documents</li>
-                    <li>Webapp mit Python, Docker, Solr Backend</li>
-                  </ul>
-                </li>
-              </ul>
-              <h6>Large Automotive Company</h6>
-              <ul>
-                <li>Robotic Process Automation
-                  <ul>
-                    <li>Developing Python robots to automate the travel management processes</li>
-                  </ul>
-                </li>
-              </ul>
-              <h6>Large Retail Company</h6>
-              <ul>
-                <li>Demand Forecasting
-                  <ul>
-                    <li>Building statistical models to forecast per product demand for a given store</li>
-                  </ul>
-                </li>
-              </ul>
-              <h6>Internal Showcases</h6>
-              <ul>
-                <li>Data Science Platform
-                  <ul>
-                    <li>Developed a platform to host Data Science or Machine Learning use cases</li>
-                  </ul>
-                </li>
-                <li>Fraud Analytics
-                  <ul>
-                    <li>Developed a Web application (Dashboard) to detect frauds in financial datasets</li>
-                  </ul>
-                </li>
-                <li>Travel Recommender
-                  <ul>
-                    <li>Developed a web application which recommends travel destination to travelers</li>
-                  </ul>
-                </li>
-                <li>Search Engine (Document Classifier)
-                  <ul>
-                    <li>Developed a web application which allows to search through unstructured documents (pdf, xls, doc, ppt etc.)</li>
-                  </ul>
-                </li>
-                <li>Demand Forecasting Tool
-                  <ul>
-                    <li>Developed a web application which integrates demand forecasting models and allows to forecast daily sales for a given store</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="card-action"><span>Sep 2017 - Nov 2019  |  Hannover, Germany</span></div>
-          </div>
         </div>
       </section>
 
