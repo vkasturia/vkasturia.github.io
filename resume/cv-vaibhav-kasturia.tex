@@ -1,0 +1,424 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{savetrees}
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+%\usepackage{savetrees}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{1.5pt}{1.5pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Vaibhav \textsc{Kasturia}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{ll}
+\textsc{Place of Birth:} & Delhi, India \\ 
+\textsc{Date of Birth:} & 18 November 1992 \\
+\textsc{Nationality:} & Indian\\
+\textsc{Email:} & \href{mailto:vbh18kas@gmail.com}{vbh18kas@gmail.com} \\
+\textsc{LinkedIn:} & \href{https://www.linkedin.com/in/vkasturia/}{vkasturia} \\
+\textsc{Twitter:} & \href{https://twitter.com/vbhvkas18}{vbhvkas18} \\
+\textsc{Github:} & \href{https://github.com/vkasturia}{vkasturia} \\
+\textsc{Skype:} & \href{https://join.skype.com/invite/apwT2EQ6iqFR}{vaibhav.kasturia1} \\
+\textsc{Webpage:} & \href{https://vkasturia.github.io}{vkasturia.github.io}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Aug 2018 - Present} & Research Associate at \textsc{University of Halle-Wittenberg}, Halle (Saale)
+\\
+& \footnotesize{Query Understanding via Entity Linking}\\
+& \footnotesize{Total Recall in Systematic Reviews}\\
+& \footnotesize{Argumentative Axiomatic Re-Ranking}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May 2018 - Jul 2018} & Research Associate at \textsc{Fraunhofer IAIS}, Bonn
+\\
+& \footnotesize{Development of a Question-Answering System for client companies.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Oct 2016 - Jan 2018} & Student Assistant at \textsc{L3S Research Center}, Hannover
+\\
+& \footnotesize{Semantic and Entity-based exploration of Web Archives (\href{http://alexandria-project.eu/}{\emph{ALEXANDRIA Project}}})\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2014 - Jan 2015} & Intern (Software Developer) at \textsc{ESRI}, Sharjah \\
+& \footnotesize{Handled Multidimensional Data (GRIB, NetCDF, HDF, etc.)}\\
+& \footnotesize{Analysis of Raster, Mosaic and Image Service Data Layers.}\\
+& \footnotesize{Fixed bugs and changes requested for ArcGIS 10.}\\
+& \footnotesize{Validated UI functioning of Raster and Geo-Processing Tools of ArcGIS Pro.}\\
+& \footnotesize{Removed potential defects (by Coverity Analysis) in Raster Solutions of ArcGIS 10.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jun 2013 - Aug 2013} & Intern at \textsc{Fortis Healthcare}, Delhi \\
+& \footnotesize{Assisted in the handling of EWS patients and Medico-Legal Cases.}\\
+& \footnotesize{Suggested improvements for the Day-Care Centre procedures.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May 2011 - Jul 2011} & Summer Intern at \textsc{Gyan Research and Analytics}, Delhi \emph{}\\
+& \footnotesize{Prepared an assessment report of the Indian Chemical Industry using secondary research sources.}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r p{0.8\linewidth}}	
+\textsc{2015-18} & \mbox{Master of Science in \textsc{Internet Technologies and Information Systems (ITIS)}}\\
+& \textbf{Leibniz University Hannover}, Hannover\\
+& Major: Data and Information\\
+& Research Project: ``Building \& Querying Semantic Layers for Web Archives''\\
+& Thesis: \mbox{``Ranking Archived Documents for Structured Queries on Semantic Layers''} 
+\\
+& Examiners: \href{http://www.kbs.uni-hannover.de/\%7Entoutsi/}{Prof. Dr. Eirini \textsc{Ntoutsi}}, \href{https://www2.kbs.uni-hannover.de/nejdl.html}{Prof. Dr. Wolfgang \textsc{Nejdl}}\\
+& Supervisor: \href{http://users.ics.forth.gr/\%7Efafalios/}{Dr. Pavlos \textsc{Fafalios}}\\
+&\normalsize \textsc{GPA}: 1.1 (German Scale)\hyperlink{grds_itis}{\hfill | \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2011-15} & Bachelor of Engineering (Hons.) in \textsc{Computer Science}\\
+& \textbf{Birla Institute of Technology and Science - Pilani}, Dubai\\
+& Thesis: \mbox{``Software Development Practices at ESRI''}\\
+&\normalsize \textsc{GPA}: 1.1 (German Scale), 9.77 (Indian Scale) \hyperlink{grds_bits}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Teaching}
+
+\begin{tabular}{ll}
+\textsc{SS 2020} & Foundations of Computer Science and Concepts of Modeling-II (Exercises)\\
+\textsc{WS 2019/20} & Search Algorithms (Exercises)\\
+\textsc{WS 2019/20} & Foundations of Computer Science and Concepts of Modeling-I (Exercises)\\
+\textsc{SS 2019} & Project Internship (Supervision)\\
+\textsc{SS 2019} & C Programming (Exercises)\\
+\textsc{WS 2018/19} & Object Oriented Programming (Exercises)\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{tabular}{ll}
+\textsc{Nov 2019} & \href{https://webis.de/downloads/publications/papers/stein_2019zc.pdf}{\textsc{Webis at TREC 2019: Decision Track}}\\
+& A. Bondarenko, M. Fröbe, \textbf{V. Kasturia}, M. Völske, B. Stein and M. Hagen \\
+& 28th International Text Retrieval Conference (TREC'19)\\
+& Gaithersburg (Maryland, USA)\\
+\end{tabular}
+
+\begin{tabular}{ll}
+\textsc{Jun 2018} & \href{https://dl.acm.org/doi/10.1145/3197026.3197049}{\textsc{Ranking Archived Documents for Structured Queries on Semantic Layers}}\\
+& Pavlos Fafalios, \textbf{Vaibhav Kasturia} and Wolfgang Nejdl\\
+& ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL’18)\\
+& Fort Worth (Texas, USA)\\
+\end{tabular}
+
+\begin{tabular}{ll}
+\textsc{Nov 2017} & \href{https://arxiv.org/abs/1810.10455}{\textsc{Building and Querying Semantic Layers for Web Archives (Extended Version)}}\\
+& Pavlos Fafalios, Helge Holzmann, \textbf{Vaibhav Kasturia} and Wolfgang Nejdl\\
+& International Journal on Digital Libraries (IJDL)\\
+\end{tabular}
+
+\begin{tabular}{ll}
+
+\textsc{Jun 2017} & \href{http://ieeexplore.ieee.org/document/7991555/}{\textsc{Building and Querying Semantic Layers for Web Archives}}\\
+& Pavlos Fafalios, Helge Holzmann, \textbf{Vaibhav Kasturia} and Wolfgang Nejdl\\
+& ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL’17)\\
+& Toronto (Ontario, Canada)\\
+\end{tabular}
+
+\begin{tabular}{ll}
+\textsc{Jun 2017} & \href{http://ieeexplore.ieee.org/document/7991617/}{\textsc{Towards a Ranking Model for Semantic Layers over 
+Digital Archives}}\\
+& Pavlos Fafalios, \textbf{Vaibhav Kasturia} and Wolfgang Nejdl\\
+& ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL’17)\\
+& Toronto (Ontario, Canada)\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL PROFICIENCY 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Proficiency}
+
+\begin{tabular}{ll}
+\textbf{Programming Languages:} & \textsc{Java} (Advanced), Python (Intermediate), \textsc{C/C++} (Intermediate)\\
+\textbf{Semantic Web Technologies:} & \textsc{RDF}, \textsc{OWL}, \textsc{SPARQL} (Apache Jena, sparqlwrapper)\\
+\textbf{Entity Recognition:} & AWS Comprehend, \textsc{MITIE}, LingPipe NER, DeepPavlov, \\
+							 & Stanford NER, OpenNLP\\
+\textbf{Entity Linking:} & Nordlys, Dexter, Dandelion API, Yahoo FEL, \textsc{TAGME}\\
+					     & Babelfy, TextRazor, Ambiverse, Falcon\\
+\textbf{IDE Software:} & IntelliJ, Visual Studio, Eclipse, NetBeans, Jupyter Notebook\\
+\textbf{Document Preparation:} & {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+\textbf{Data/Code Management:} & Gitlab/Github, GitKraken, \textsc{SVN}, \textsc{CVS}\\
+\textbf{Databases:} & Virtuoso, RocksDB, My\textsc{SQL}, Postgre\textsc{SQL}\\
+\textbf{Information Retrieval:} & Apache Lucene\\
+\textbf{Java Libraries:} & Standard Libraries (Apache Commons, Lang, etc.), JSON/XML Parsing\\
+\textbf{Simulation Tools:} & Matlab Simulink, Scilab\\
+\textbf{Geo-Information Systems:} & ArcGIS\\
+\textbf{Natural Language Processing:} & Word Embeddings (gloVe, Word2Vec), spaCy\\
+\textbf{Others:} & Maven, Weka, Apache Tika, Query Segmentation, Multithreading\\
+\textbf{Others (Less proficient):} & Intel 8085 Programming, Wireshark\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	ACHIEVEMENTS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Achievements and Awards}
+
+\begin{tabular}{ll}
+\textsc{Dec} 2018 & Received certificate for Best Master's degree in the academic year 2017/18\\
+& by Leibniz University Hannover.\\
+\\
+\textsc{Jun} 2017 & Research Paper on \emph{``Building and Querying Semantic Layers for Web Archives''}\\
+& nominated for Best Paper Award at JCDL 2017.\\
+\\
+\textsc{2011 - 2015} & Received BITS Scholarship for Academic Excellence for the entire 
+duration\\
+& of Bachelor’s Degree.
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Extra-Curricular Activities}
+
+\begin{tabular}{ll}
+\textsc{Oct 2019} & \textsc{Sub-Reviewer}\\
+& ECIR 2020 Conference, Lisbon\\
+\\
+\textsc{Oct 2019} & \textsc{Sub-Reviewer}\\
+& CHIIR 2020 Conference, Vancouver\\
+\\
+\textsc{Sep 2016} & \textsc{Student Volunteer, Organizing Committee}\\
+& TPDL 2016 Conference, Hannover\\
+\\
+\textsc{May 2016} & \textsc{Student Volunteer, Organizing Committee}\\
+& ACM WebSci'16 Conference, Hannover\\
+\\
+\textsc{Sep 2012 - Jun 2013} & \textsc{General Secretary, Student Council}\\
+& BITS Pilani, Dubai\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{ll}
+\textsc{English:} & First Language (C2)\\
+
+\textsc{German:} & Fluent (C1)\\
+
+\textsc{Hindi:} & First Language (C2)\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGE CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Language Certifications}
+
+\begin{tabular}{lll}
+\textbf{English}: & &\\
+\textsc{Oct 2019} & \textsc{IELTS (General)} & Overall Band: 8.0/9.0\\
+\textsc{Sep 2014} & \textsc{IELTS (Academic)} & Overall Band: 8.0/9.0\\
+\\
+\textbf{German:} & \\
+\textsc{Dec 2019} & \textsc{Goethe Zertifikat B2} & Total Score: 82/100\\
+\textsc{Nov 2019} & \textsc{Goethe Zertifikat B1} & Total Score: 93/100\\
+\textsc{Jul 2015} & \textsc{Goethe Zertifikat A1} & Total Score: 95/100\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Technical Certifications}
+
+\begin{tabular}{ll}
+\textsc{Apr 2020} & \href{https://ninjasfiles.s3.amazonaws.com/certificate643308086b235198c8d9aa73fa674fe417597e.pdf}{\textsc{Competitive Programming (Coding Ninjas)}}\\
+\textsc{Mar 2020} & \href{}{\textsc{Introduction to the Bash Shell on Mac OS and Linux (Pluralsight)}}\\
+\textsc{Oct 2019} & \href{https://www.udemy.com/certificate/UC-1EV6KK7F/}{\textsc{Master Object Oriented Design in Java (Udemy)}}\\
+\textsc{Sep 2019} & \href{https://www.udemy.com/certificate/UC-P7AJYXY6/}{\textsc{Complete Python Bootcamp (Udemy)}}\\
+\textsc{May 2019} & \href{https://www.coursera.org/account/accomplishments/verify/XN25BG7WGAM3}{\textsc{Improving Deep Neural Networks (Coursera)}}\\
+\textsc{May 2019} & \href{https://www.coursera.org/account/accomplishments/certificate/LWCFY27WJB9R}{\textsc{Structuring Machine Learning Projects (Coursera)}}\\
+\textsc{May 2019} & \href{https://www.coursera.org/account/accomplishments/verify/KCVQACF5SKEM}{\textsc{Neural Networks and Deep Learning (Coursera)}}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Sketching, Swimming, Photography, Traveling
+%----------------------------------------------------------------------------------------
+
+\newpage
+\enlargethispage{6\baselineskip}
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+\par{\centering\Large \hypertarget{grds_itis}{M.Sc. in \textsc{Internet Technologies and Information Systems}}\par}\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credits}\\ \hline
+\textbf{Field of Competence I - Theoretical Foundations}\\
+Efficient Algorithms & 1.0 & 5\\
+Simulation Engineering & 1.0 & 6\\ 
+
+\textbf{Field of Competence II - Data and Information}\\
+Data Mining 1 & 2.3 & 5\\
+Web Science & 1.0 & 5\\
+Knowledge Engineering and Semantic Web & 1.0 & 5\\
+Algorithms for Internet Applications & 1.7 & 5\\
+Foundations of Information Retrieval & 1.3 & 5\\
+Topics in Data Mining & 1.0 & 5\\ 
+
+\textbf{Field of Competence III - Networking and Communication}\\
+Seminar on Internet Technologies & 1.3 & 5\\
+Seminar: Security of Self-organizing Networks & 1.0 & 5\\ 
+
+\textbf{Field of Competence IV - Business and Law}\\
+Geo-Information Systems & 1.0 & 5\\ 
+
+\textbf{Soft Skills} & & 5\\
+German Compact B1 & 1.0 &\\ 
+German Compact B2 & 1.0 &\\ 
+German B2/C1 - Oral Communication & 1.3 &\\  
+
+\textbf{Research Project}\\
+Research Project 1 & & 30\\
+
+\textbf{Master Thesis}\\
+Master Thesis & 1.0 & 30\\
+
+& Total & 121\\\cline{2-3}
+&\textsc{GPA}&\textbf{1.1 (German Scale)}\\ 
+&&%\href{http://www.itis-graduateschool.de/academic_grading/}{\textsc{Academic Grading Description}}
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\bigskip
+
+%------------------------------------------------
+
+\bigskip
+
+\par{\centering\Large \hypertarget{grds_bits}{B.E.(Hons.) in \textsc{Computer Science}}\par}\large{\centering Grades (Relevant Courses)\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Units}\\ 
+\hline
+Computer Programming & A- & 4\\
+Digital Design & A & 4\\
+Discrete Structures for Computer Science & A & 3\\
+Logic in Computer Science & A- & 3\\
+Object Oriented Programming & A & 4\\
+Database Systems & A & 4\\
+Data Structures and Algorithms & B & 4\\
+Microprocessors and Interfacing & A & 4\\
+Theory of Computation & B & 3\\
+Operating Systems & A & 3\\
+Principles of Programming Languages & A- & 2\\
+Artificial Intelligence & A & 3\\
+Computer Architecture & A & 4\\
+Design Project I & A & 3\\
+Multimedia Computing & A & 3\\
+Design and Analysis of Algorithms & A & 3\\
+Compiler Construction & A- & 3\\
+Computer Networks & A & 4\\
+Software Engineering & A- & 4\\
+Special Project & A & 3\\
+Design Project II & A & 3\\
+Information Retrieval & A & 3\\
+Parallel Computing & A & 3\\
+& &\\\cline{2-3}
+& \textsc{GPA} & \textbf{9.77 (Indian Scale)}\\ && \textbf{1.1 (German Scale)}
+\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
