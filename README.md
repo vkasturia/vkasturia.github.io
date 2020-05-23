@@ -27,15 +27,10 @@ To publish changes to the source files, just push them to GitHub, which will
 take care of compiling them on its own.
 
 ## Sources Structure
-- `commons` Reusable styles of the Webis theme
-- `_includes` Includes to other source files (e.g. BibHTML)
+- `resume` Folder containing the Latex and PDF version of the resume (e.g. BibHTML)
 - `_layouts` The website's layout templates
-- `_maintenance` Maintenance scripts
-- `_sass` Sass source files for the website's CSS
-- `_site` Compiled HTML output files (not included in the repository)
-- `_src_data` Source data such as `.bib` files for generating the BibHTML
-- `css` Main Sass file and additional CSS
-- `img`, `fonts`, `js` Image, fonts, and JavaScript files
+- `static` Contains `img` folder for images, `css` folder for the website's CSS, `js` folder for JavaScript files
+- `index.html` The main webpage
 
 Other folders not starting with an underscore are content folders containing
 HTML content files.
@@ -63,7 +58,7 @@ If you need extra (external) CSS files within a page, specify their paths with
 
 ## Edit CSS
 CSS is managed via Sass, which is automatically compiled by Jekyll.
-The main SCSS file is located at `css/style.scss`. This file is only there and you hardly ever need to touch it. 
+The main CSS file is located at `static/css/style.css`. This file is only there and you hardly ever need to touch it. 
 
 Afterwards, add the changes to your Git index
     
