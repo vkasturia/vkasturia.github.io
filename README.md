@@ -6,9 +6,7 @@ The personal website source code.
 
 *If you are editing the files directly on GitHub, you can skip this section.*
 
-**Note:** Please use the `--recursive` flag for `git clone` or refer to
-the [Update Dependencies](#Update-Dependencies) section below to initialize
-or update the needed dependencies before compiling the source code.
+**Note:** Please use the `--recursive` flag for `git clone`.
 
 The website is built using [Jekyll](https://jekyllrb.com/docs/). To install
 Jekyll on your system, run
@@ -55,10 +53,6 @@ definitions, but should at least (but doesn't have to) include the following:
     title: The page title
     description: A meta description
     ---
-
-The only thing special is `nav_active`, which determines which entry in the navigation should
-be highlighted as active. The placeholder `id` can be any of `index`, `people`,
-`lecturenotes`, `forstudents`, `research`, `publications`, `data`, `facilities`, or `events`.
 
 If you want an HTML page without any layout, omit `layout` (or change it to a custom layout
 which you put in `_layouts` before).
