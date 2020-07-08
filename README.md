@@ -13,8 +13,13 @@ Jekyll on your system, run
 
     sudo apt install ruby ruby-dev build-essential
     sudo gem install jekyll jekyll-sitemap
+    
+To install Github pages and update, run 
 
-After Jekyll is installed, you can `cd` into the main folder of this
+    sudo gem install github-pages -n /usr/local/bin
+    bundle update
+
+After Jekyll and Github pages is installed, you can `cd` into the main folder of this
 repository and run
 
     bundle exec jekyll serve
