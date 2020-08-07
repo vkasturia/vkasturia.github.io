@@ -294,25 +294,24 @@
               <ul>
                 <li>Query Understanding via Entity Linking
                   <ul>
-                    <li>Goal: Understanding the meaning behind search engine queries using entity linking to show more relevant results to the user.</li>
-                    <li>Answer times of web search engines typically are below several hundreds of milliseconds; entity linking should thus ideally not consume more than some tens of milliseconds.</li>
-                    <li>Developed an entity linking tool achieving higher accuracy at a faster speed compared to several existing entity linking tools.</li> 
+                    <li><b>Goal:</b> Interpret ambiguous search engine queries to show more relevant results to the user, answer the query or help fill search engine’s knowledge boxes.</li>
+                    <li>Designed and developed an automatic approach that uses query segmentation and entity linking to identify the most reasonable interpretations of a query based on the contained entities.</li>
+                    <li>Conducted an experimental comparison on a new corpus of 2,800 queries. It proves that my approach has better interpretation accuracy at a better run time than the previously best methods.</li> 
                   </ul>  
                 </li>  
                 <li>Total Recall in Systematic Reviews
                   <ul>
-                    <li>Total Recall: Finding all the relevant publications on a given topic.</li>
-                    <li>&quot;Recall&quot; of the system: The portion of relevant documents that a search system returns from the set of all relevant documents.</li>
-                    <li>Goal: Find all relevant documents, given a collection of several 1000s of documents somewhat related to a specified topic.</li>
-                    <li>Implemented several ML methods available in <a aria-label="" href="https://github.com/hical/HiCAL" target="_blank" class="none">HiCAL</a> on botanical research datasets.</li> 
+                    <li><b>Goal:</b> Find all relevant documents (“total recall”) given a collection of potentially several thousands of documents somewhat related to a user-specified topic. A single systematic review may take up to 2 years without any machine-assistance.</li>
+                    <li>Built a system that reduces the review period by ordering these documents in descending relevance.</li>
+                    <li>Implemented several machine learning methods from an existing total recall approach (<a aria-label="" href="https://github.com/hical/HiCAL" target="_blank" class="none">HiCAL</a>) and tested these on botanical research datasets. The results show that machine learning reduces the human effort by almost 80 percent.</li>
+                    <li>Development of a new algorithm that continuously adapts the feature set to the growing user feedback, and combines the current feature set with machine learning (learning-to-rank) to a ranking score.</li> 
                   </ul>
                 </li>   
                 <li>Argumentative Axiomatic Re-Ranking for Medical Search Queries
                   <ul>
-                    <li>People use search technologies to seek health advice online. Time-pressured clinicians may too rely on search results to decide upon the best treatment/diagnosis/test for a patient.</li>
-                    <li>Problem: Using search engines in order to complete such decision making tasks, users are able to discern authoritative from unreliable information and correct from incorrect information.</li>
-                    <li>Solution: Re-rank search results obtained by traditional search models, in order to promote more argumentative results for keyword-based queries that might benefit from argumentative answers.</li>
-                    <li>Participated with the axiomatic re-ranking approach at the TREC 2019 Conference.</li>
+                    <li>People use search engines to seek health advice online.</li>
+                    <li>Using search engines to complete such decision making tasks, users are not able to discern authoritative from unreliable information.</li>
+                    <li>As part of a team, we developed an axiomatic approach to re-rank search results obtained by traditional search models, in order to promote more argumentative results for medical queries.<li>
                   </ul>
                 </li>
                 <!-- <li>Gamification in Information Retrieval
@@ -379,9 +378,9 @@
               <p><em class="grey-text">Activities</em></p>
               <h6>Project Experience</h6>
               <ul>
-                <li>Prototyping of a Question Answering system for an accounting firm.</li>
-                <li>Development of algorithms in the area of Deep Learning as well as Speech Processing.</li>
-                <li>Small contributions to the BMBF project GEISER. The project dealt with the analysis of spatial data.</li>
+                <li>Prototyped a Question Answering system for an accounting firm.</li>
+                <li>As part of the team, contributed to the development of algorithms in the area of Deep Learning as well as Speech Processing for intelligent smart car systems.</li>
+                <li>Small contributions to the project GEISER which dealt with the analysis of spatial data.</li>
               </ul>
             </div>
             <div class="card-action"><span>Apr 2018 - Jun 2018  |  Bonn, Germany</span></div>
@@ -399,20 +398,12 @@
               <p><em class="grey-text">Activities</em></p>
               <h6>Alexandria Project (ERC Advanced Grant Project)</h6>
               <ul>
-                <li>Building and Querying Semantic Layers for Web Archives
-                  <ul>
-                    <li>Exploring Web Archives (huge archived web page collections) by extracting Semantic Profiles or Layers from these collections.</li>
-                    <li>Semantic Layers allow describing metadata information about the archived documents, annotating them with useful semantic information, and publishing this data on the Web as Linked Data.</li>
-                    <li>Such structured repositories offer advanced query and integration capabilities and make web archives directly exploitable by other systems and tools.</li>
-                  </ul>  
-                </li>  
-                <li>Ranking Archived Documents for Structured Queries on Semantic Layers
-                  <ul>
-                    <li>Results returned by structured queries on Semantic Layers are numerous and moreover they all equally match the query.</li>
-                    <li>Formalized the task of ranking archived documents for structured queries on Semantic Layers.</li> 
-                    <li>Proposed two ranking models which jointly consider: i) the relativeness of documents to entities, ii) the timeliness of documents, and iii) the temporal relations among the entities.</li>
-                  </ul>
-                </li>
+                <li>Research on methods for the semantic and entity-based exploration of Web Archives.</li>
+                <li>Aim of the project was to significantly advance semantic and time-based indexing for Web Archives, to efficiently index, retrieve and explore information about entities and events from the past.</li>
+                <li>Built semantic profiles (“layers”) that describe semantic information about the contents of Web Archives using Entity Linking Tools.</li>
+                <li>Evaluated the semantic layers for complex information needs against keyword-based search systems like Google, Bing and HistDiv.</li>
+                <li>Designed and evaluated statistical and advanced models (PageRank-like) to rank results returned by running queries on these layers.</li>
+                <li>Building and Querying Semantic Layers for Web Archives</li>
               </ul>
               <h6>Volunteer Experience</h6>
               <ul>
@@ -431,7 +422,7 @@
                   <p><span class="card-title"><a href="https://www.esri.com/en-us/home" target="_blank" class="teal-text hoverline">ESRI</a></span></p>
                 </div>
               </div>
-              <div class="role brown-text">Programming Intern</div>
+              <div class="role brown-text">Software Developer (Intern)</div>
               <p><em class="grey-text">Activities</em></p>
               <h6>Raster Development</h6>
               <ul>
