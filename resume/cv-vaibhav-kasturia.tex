@@ -41,11 +41,12 @@
 \usepackage{titlesec} % Used to customize the \section command
 \usepackage{savetrees}
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
-\titlespacing{\section}{0pt}{1.5pt}{1.5pt} % Spacing around sections
+\titlespacing{\section}{0pt}{5pt}{4pt} % Spacing around sections
 
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
+%\parpic[r]{\includegraphics[width=0.27\textwidth]{bewerbungsbild-1.jpg}}
 \font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
 %----------------------------------------------------------------------------------------
@@ -56,22 +57,23 @@
 
 \section{Personal Data}
 
-\begin{minipage}[b][4.0cm][t]{0.5\textwidth}
+\begin{minipage}[b][4.5cm][t]{0.5\textwidth}
 \begin{tabular}{ll}
 \textsc{Place of Birth:} & Delhi, India \\ 
 \textsc{Date of Birth:} & 18 November 1992 \\
 \textsc{Nationality:} & Indian (Permanent Resident of Germany)\\
+\textsc{Address:} & Schwannstr. 6, 40476 Düsseldorf, Germany \\
 \textsc{Email:} & \href{mailto:vbh18kas@gmail.com}{vbh18kas@gmail.com} \\
 \textsc{LinkedIn:} & \href{https://www.linkedin.com/in/vkasturia/}{vkasturia} \\
-\textsc{Twitter:} & \href{https://twitter.com/vbhvkas18}{vbhvkas18} \\
+%\textsc{Twitter:} & \href{https://twitter.com/vbhvkas18}{vbhvkas18} \\
 \textsc{Github:} & \href{https://github.com/vkasturia}{vkasturia} \\
-\textsc{Skype:} & \href{}{vaibhav.kasturia1} \\
+\textsc{Skype:} & \href{https://join.skype.com/invite/apwT2EQ6iqFR}{vaibhav.kasturia1} \\
 \textsc{Webpage:} & \href{https://www.vaibhavkasturia.com}{www.vaibhavkasturia.com}
 \end{tabular}
 \end{minipage}
-\begin{minipage}[b][4.0cm][t]{0.4\textwidth}
+\begin{minipage}[b][4.5cm][t]{0.5\textwidth}
 \hspace{3.5cm}
-\includegraphics[width=0.4\textwidth]{bewerbungsbild_cropped.jpg}
+\includegraphics[width=0.32\textwidth]{./bewerbungsbild_cropped.jpg}
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
@@ -108,7 +110,12 @@
 \section{Work Experience}
 
 \begin{longtable}{l p{11cm}}
-\textsc{Aug 2018 - Present} & Research Associate at \textsc{University of Halle-Wittenberg}, Halle (Saale)
+\textsc{May 2021 - Present} & Consultant at \textsc{Deloitte}, Düsseldorf\\
+& \emph{Accounting and Internal Controls, \href{https://www2.deloitte.com/de/de/services/risk.html?icid=bottom_risk}{Risk Advisory}}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+\textsc{Aug 2018 - Oct 2020} & Research Associate at \textsc{University of Halle-Wittenberg}, Halle (Saale)
 \\
 & \emph{Big Data Analytics, \href{https://webis.de}{Webis Group}}\\[1mm]
 & \textbf{\footnotesize{Query Understanding via Entity Linking}}\vspace{0.2em}
@@ -142,16 +149,6 @@
   \end{itemize}
   }
 \\[-2mm]
-%& \textbf{\footnotesize{Gamification in Information Retrieval}}\vspace{0.2em}
-%  {\footnotesize
-%  	\begin{itemize}
-%  		\setlength\itemsep{0.2em}
-% 		\item People scramble sensitive search queries to hide their intent (for example, someone wants to know what \texttt{hepatitis c} is without having to input this in a search engine).
-%		\item Observe how people scramble queries and analyze the retrievability of documents based on the scrambled queries.
-%		\item Query scrambling is observed by designing a game with components (high scores, playing against an opponent, levels, restrictions, etc.) to motivate people to participate.
-%  \end{itemize}
-%  }
-%\\[-2mm]
 & \textbf{\footnotesize{Activities}}\vspace{0.2em}
   {\footnotesize
   	\begin{itemize}
@@ -220,10 +217,10 @@ systems like Google, Bing and HistDiv.
 \section{Technical Proficiency}
 
 \begin{tabular}{ll}
-\textbf{Programming Languages:} & \textsc{Java} (Advanced), Python (Intermediate), \textsc{C/C++} (Intermediate)\\
-\textbf{IDE Software:} & IntelliJ, Visual Studio, Eclipse, NetBeans, Jupyter Notebook\\
-\textbf{Document Preparation:} & LaTeX, MS Office, Apple Office Suite\\
-\textbf{Version-Control Software:} & Gitlab/Github, GitKraken, \textsc{SVN}, \textsc{CVS}\\
+\textbf{Programming Languages:} & \textsc{Java}, Python, \textsc{C/C++}\\
+\textbf{Machine Learning:} & Linear Regression, Logistic Regression, SVM, Decision Tree,\\
+						   & Random Forest, Neural Networks \\
+\textbf{Python Frameworks:} & NumPy, pandas, scikit-learn, Matplotlib \\
 \textbf{Database Systems:} & Virtuoso, RocksDB, My\textsc{SQL}, Postgre\textsc{SQL}\\
 \textbf{Information Retrieval:} & Apache Lucene\\
 \textbf{Natural Language Processing:} & Entity Recognition, Entity Linking, Entity Disambiguation,\\
@@ -232,10 +229,13 @@ systems like Google, Bing and HistDiv.
 \textbf{Semantic Web Technologies:} & RDF/RDFa, \textsc{OWL}, Turtle, \textsc{SPARQL}, Apache Jena, SPARQLWrapper\\
 \textbf{Web Technologies:} & HTML5, CSS, Materialize, Bootstrap\\
 \textbf{Geo-Information Systems:} & ArcGIS\\
-\textbf{Others:} & Apache Maven, Weka, Apache Tika, Multithreaded Programming\\
-\textbf{Basic Knowledge:} & Intel 8085 Programming, Wireshark, Scilab\\
+\textbf{IDE Software:} & IntelliJ, Visual Studio, Eclipse, NetBeans, Jupyter Notebook\\
+\textbf{Document Preparation:} & LaTeX, MS Office, Apple Office Suite\\
+\textbf{Version-Control Software:} & Gitlab/Github, GitKraken, \textsc{SVN}, \textsc{CVS}\\
+\textbf{Others:} & Docker, Apache Maven, Weka, Multithreaded Programming\\
+\textbf{Basic Knowledge:} & Intel 8085 Programming,  Apache Tika, Wireshark, Scilab\\
 \end{tabular}
-
+\\
 %----------------------------------------------------------------------------------------
 %	ACHIEVEMENTS AND AWARDS
 %----------------------------------------------------------------------------------------
@@ -285,7 +285,7 @@ Digital Archives}}\\
 & Pavlos Fafalios, \textbf{Vaibhav Kasturia} and Wolfgang Nejdl\\
 & ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL’17), Toronto (Ontario, Canada)\\
 \end{tabular}
-
+\\
 %----------------------------------------------------------------------------------------
 %	TECHNICAL CERTIFICATIONS
 %----------------------------------------------------------------------------------------
@@ -293,6 +293,8 @@ Digital Archives}}\\
 \section{Technical Certifications}
 
 \begin{tabular}{ll}
+\textsc{Dec 2020} & \href{https://www.coursera.org/account/accomplishments/verify/ZF4WLZWMJR3U}{\textsc{Machine Learning, Stanford University (Coursera)}}\\
+%\textsc{Oct 2020} & \href{https://www.udemy.com/certificate/UC-1c189099-d482-413f-8687-d15c337191b9/}{\textsc{Docker and Kubernetes: The Complete Guide (Udemy)}}\\
 \textsc{Apr 2020} & \href{https://ninjasfiles.s3.amazonaws.com/certificate643308086b235198c8d9aa73fa674fe417597e.pdf}{\textsc{Competitive Programming (Coding Ninjas)}}\\
 \textsc{Mar 2020} & \href{https://vaibhavkasturia.com/certificate/introduction-to-the-bash-shell-on-macos-and-linux-vaibhav-kasturia.pdf}{\textsc{Introduction to the Bash Shell on Mac OS and Linux (Pluralsight)}}\\
 \textsc{Oct 2019} & \href{https://www.udemy.com/certificate/UC-1EV6KK7F/}{\textsc{Master Object Oriented Design in Java (Udemy)}}\\
@@ -301,7 +303,7 @@ Digital Archives}}\\
 \textsc{May 2019} & \href{https://www.coursera.org/account/accomplishments/certificate/LWCFY27WJB9R}{\textsc{Structuring Machine Learning Projects (Coursera)}}\\
 \textsc{May 2019} & \href{https://www.coursera.org/account/accomplishments/verify/KCVQACF5SKEM}{\textsc{Neural Networks and Deep Learning (Coursera)}}\\
 \end{tabular}
-
+\\
 %----------------------------------------------------------------------------------------
 %	EXTRA-CURRICULAR ACTIVITIES
 %----------------------------------------------------------------------------------------
@@ -324,7 +326,7 @@ Digital Archives}}\\
 \textsc{Sep 2012 - Jun 2013} & \textsc{General Secretary, Student Council}\\
 & BITS Pilani, Dubai\\
 \end{tabular}
-
+\\
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
 %----------------------------------------------------------------------------------------
@@ -338,7 +340,7 @@ Digital Archives}}\\
 
 \textsc{Hindi:} & Mother tongue &\\
 \end{tabular}
-
+\\
 %----------------------------------------------------------------------------------------
 %	INTERESTS AND ACTIVITIES
 %----------------------------------------------------------------------------------------
